@@ -8,8 +8,6 @@ int main() {
 
   do {
 
-    // As opções
-
     printf("Saldo atual: R$ %.2f\n", total);
     printf("Escolha uma opcao para adicionar no cofrinho:\n");
     printf("1 - Moeda de R$ 0,50\n");
@@ -18,8 +16,6 @@ int main() {
     printf("0 - Encerrar e ver total acumulado\n");
     printf("Opcao: ");
     scanf("%d", &opcao);
-
-    // Processamento da escolha
 
     switch (opcao) {
     case 1:
@@ -43,8 +39,6 @@ int main() {
     }
 
   } while (opcao != 0);
-
-  // Resultado final
 
   printf("Total acumulado no cofrinho: R$ %.2f\n", total);
 
